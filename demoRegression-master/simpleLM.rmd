@@ -87,8 +87,10 @@ This models compares the bears Headlegnth. It shows that the standard residual e
 
 
 In conclusion when comparing the bears length against his age, headlen, headwth, neck, chest, and weight, here is the order best to worst for  residual standard error:
+
 HEADLEN 4.235 
 CHEST 4.939
+NECK 5.376
 WEIGHT 5.432
 AGE 7.511
 HEADWTH 7.32
@@ -96,4 +98,9 @@ HEADWTH 7.32
 
 In conclusion when comparing the bears length against his age, headlen, headwth, neck, chest, and weight, here is the order best to worst for adjusted r-square:
 
-
+HEADLEN 0.8434
+CHEST 0.7869
+NECK 0.7476
+WEIGHT .7423
+HEADWTH 0.5321
+AGE 0.5073
