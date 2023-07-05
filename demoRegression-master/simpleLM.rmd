@@ -91,6 +91,6 @@ abline(MYWEIGHT)
 summary.lm(MYWEIGHT)
 ```
 
-
+This models compares the bears weight. It shows that the standard residual error is 5.432 and the adjusted R-square is 0.7423. Therefore, in comparison to the last model standard residual, this one is lower, therefore, it is better. In addition, in comparison with the last model adjusted, this one is lower,  therefore, it is not betterbut worse.
 
 
