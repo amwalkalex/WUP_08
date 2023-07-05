@@ -92,8 +92,9 @@ HEADLEN 4.235
 CHEST 4.939
 NECK 5.376
 WEIGHT 5.432
-AGE 7.511
 HEADWTH 7.32
+AGE 7.511
+
 
 
 In conclusion when comparing the bears length against his age, headlen, headwth, neck, chest, and weight, here is the order best to worst for adjusted r-square:
