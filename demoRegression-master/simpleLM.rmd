@@ -50,4 +50,6 @@ abline(MYHEADWTH)
 summary.lm(MYHEADWTH)
 ```
 
+As the third model, the residual standard error is 7.32, which is making it worse.In addition, the the R-square
+is now 0.5409 which is also a decline from the previous model. Comparing all three models, this one is at the bottom of the list. 
 
