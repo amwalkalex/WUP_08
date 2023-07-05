@@ -85,12 +85,24 @@ This models compares the bears Headlegnth. It shows that the standard residual e
 
 
 ```{r}
-MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
-plot(LENGTH~WEIGHT,data=bears)
-abline(MYWEIGHT)
-summary.lm(MYWEIGHT)
+MYNECK <- lm(LENGTH~NECK,data=bears)
+plot(LENGTH~NECK,data=bears)
+abline(MYNECK)
+summary.lm(MYNECK)
 ```
 
-This models compares the bears weight. It shows that the standard residual error is 5.432 and the adjusted R-square is 0.7423. Therefore, in comparison to the last model standard residual, this one is lower, therefore, it is better. In addition, in comparison with the last model adjusted, this one is lower,  therefore, it is not betterbut worse.
+This models compares the bears weight. It shows that the standard residual error is 5.432 and the adjusted R-square is 0.7423. Therefore, in comparison to the last model standard residual, this one is lower, therefore, it is better. In addition, in comparison with the last model adjusted, this one is lower,  therefore, it is not better but worse.
+
+
+
+In conclusion when comparing the bears length against his age, headlen, headwth, neck, chest, and weight, here is the order best to worst for  residual standard error:
+HEADLEN 4.235 
+CHEST 4.939
+WEIGHT 5.432
+AGE 7.511
+HEADWTH 7.32
+
+
+In conclusion when comparing the bears length against his age, headlen, headwth, neck, chest, and weight, here is the order best to worst for adjusted r-square:
 
 
