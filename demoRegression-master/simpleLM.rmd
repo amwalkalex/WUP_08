@@ -84,7 +84,12 @@ summary.lm(MYHEADLEN)
 This models compares the bears Headlegnth. It shows that the standard residual error is 4.235 and the adjusted R-square is 0.8434. Therefore, in comparison to the last model standard residual, this one is lower, therefore, it is better. In addition, in comparison with the last model adjusted, this one is higher,  therefore, it is also better.
 
 
-
+```{r}
+MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(MYWEIGHT)
+summary.lm(MYWEIGHT)
+```
 
 
 
